@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+body{
+    background-image:url("weatherimage.jpg");
+    background-size:cover;
+    margin:0;
+    padding:0;
+    background-position:center;
+    background-repeat:no-repeat; 
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    font-family:'Courier new',Verdana, Geneva, Tahoma, sans-serif;
+}
+.appcontainer{
+    background: rgba(124, 200, 237, 0.6);
+    backdrop-filter:blur(0.2px);
+    padding:30px 40px;
+    border-radius: 20px;
+    width:500px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+h1{
+    color:rgba(80, 14, 4, 0.867);
+    margin-bottom:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#in input{
+    width:80%;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding:10px;
+    margin-bottom:10px;
+    transition:0.3s;
+}
+#in button{
+    background-color: #023395;
+    color:white;
+    border-radius: 20px;
+    border: none;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#in button:hover{
+    background-color:#3399ff;
+}
+#result{
+    margin-top:20px;
+}
+#result p{
+    margin-top:10px 0;
+    font-size:16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#333;
+}
+#error{
+    color:red;
+    font-size:14px;
+    display:none;
+    margin-top:10px;
+}
+#result img{
+    width:80px;
+    margin-top:10px;
+}
+.info-cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+.card{
+    background-color:rgba(255,255,255,0.1);
+    border-radius:12px;
+    padding:15px 20px;
+    text-align:center;
+    width:120px;
+    box-shadow:0 4px 4px rgba(0,0,0,0.2);
+    color:white;
+    backdrop-filter:blur(5px);
+}
+.card img{
+    width:30px;
+    height:30px;
+    margin-bottom:10px;
+}
+
