@@ -1,4 +1,4 @@
-const apiKey = "3b26a0d4eda0c3d380f98003f0035d2a";
+const apiKey = "yourapikey";
 
 function getweather() {
     // Get the city entered by the user
