@@ -35,18 +35,13 @@ A responsive web application that allows users to check real-time weather condit
 1. Clone the repository
 
    ```bash
- git clone https://github.com/ruchikaa-6/Weather-App.git
+   git clone https://github.com/ruchikaa-6/Weather-App.git
    ```
 2. Open `index.html` in your browser.
 3. Enter a city name and view the weather instantly.
 
 ---
 
-## 🔮 Future Improvements
-
-* Add 5-day weather forecast
-* Auto-detect user location
-* Improve UI with animations and icons
 
 ![image](https://github.com/user-attachments/assets/6575bc5c-b95a-4b09-84bc-68bc31e67863)
 
