@@ -50,6 +50,3 @@ A responsive web application that allows users to check real-time weather condit
 
 ![image](https://github.com/user-attachments/assets/6575bc5c-b95a-4b09-84bc-68bc31e67863)
 
-__Technologies Used:__  
-__Frontend:__ JavaScript/HTML/CSS   
-__API:__ OpenWeatherMap
